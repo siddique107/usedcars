@@ -31,7 +31,6 @@ public class SiddiqueController {
      Long totalcars= usedService.AccountCount();
      Long availableCars= usedService.carAvailable("AVAILABLE");
      Long unavailableCars= usedService.carAvailable("SOLD");
-  // Calculate percentages
      double availablePercent = 0;
      double unavailablePercent = 0;
 
